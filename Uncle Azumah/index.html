@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebrating Richard Azumah Morgan | A Father's Day Tribute</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="A premium, modern digital tribute celebrating the life, wisdom, and warm memories of Uncle Azumah on Father's Day.">
+  <meta name="keywords"
+    content="Uncle Azumah, Father's Day tribute, Celebrating Father, Family Milestones, Father's Day website">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Celebrating Uncle Azumah | A Father's Day Tribute">
+  <meta property="og:description"
+    content="Explore a premium digital tribute celebrating the milestones, stories, and warm memories of Uncle Azumah.">
+  <meta property="og:image" content="images/father.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Floating Header / Navigation -->
+  <header id="main-header" class="main-header">
+    <div class="header-logo">Richard Azumah Morgan</div>
+    <nav class="nav-menu" aria-label="Main Navigation">
+      <a href="#about" class="nav-link" id="nav-about-link">Our Story</a>
+      <a href="#gallery" class="nav-link" id="nav-gallery-link">Memories</a>
+      <a href="#wishes" class="nav-link" id="nav-wishes-link">Wishes</a>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-section" id="hero-banner">
+    <div class="hero-bg customizable-img-wrapper" data-image-slot="images/hero.jpg" id="hero-bg-wrapper">
+      <img src="images/hero.jpg" alt="Luxurious abstract background with gold sparkles" id="hero-image"
+        fetchpriority="high">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">Happy Father's Day</p>
+      <h1 class="hero-title">Richard Azumah Morgan:<br>A Legacy of Love &amp; Strength</h1>
+      <button class="hero-cta" id="hero-cta-btn"
+        onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+        Explore His Journey
+        <svg viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Biography Section -->
+  <main>
+    <section class="section-container profile-grid" id="about">
+      <div class="profile-image-container customizable-img-wrapper" data-image-slot="images/father.jpg"
+        id="profile-img-wrapper">
+        <img src="images/Fathersolo.jpeg" alt="A warm, smiling portrait of Uncle Azumah in traditional attire"
+          id="profile-image" loading="lazy">
+        <div class="profile-badge-overlay" id="profile-badge">Our Pillar</div>
+      </div>
+      <div class="profile-details">
+        <h3>A Father, Mentor, and Guide</h3>
+        <p class="profile-title-sub">Celebrating a Wonderful Life</p>
+        <p class="profile-bio">
+          Daddy, You have always been the compass of our family. Your life stands as a testament to hard work, deep
+          wisdom, and an unwavering devotion to your loved ones. From your early years through professional heights and
+          into even greater height, You guided us with kindness, inspired us with stories, and anchored us with your
+          strength. On this Father's Day, we honor the path you have carved and the love you give out so freely.
+        </p>
+        <div class="profile-tags" id="profile-tags-container">
+          <span class="tag">Pillar of Strength</span>
+          <span class="tag">Wise Counselor</span>
+          <span class="tag">Master Storyteller</span>
+          <span class="tag">Generous Heart</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Photo Gallery (Memories) -->
+    <section class="section-container" id="gallery">
+      <h2 class="section-title">Cherished Memories</h2>
+      <p class="section-desc">A visual window into the happiest moments we share. Click any image to view details.</p>
+
+      <div class="gallery-grid" id="gallery-grid-container">
+        <!-- Memory Card 1 -->
+        <div class="gallery-card customizable-img-wrapper" data-image-slot="images/memory1.jpg" id="gallery-card-1">
+          <img src="images/memory1.jpeg" alt="Uncle Azumah smiling with family around a dinner table" loading="lazy">
+          <div class="gallery-card-overlay">
+            <h4 class="gallery-card-title">Family Gatherings</h4>
+            <span class="gallery-card-date">Celebrating Together</span>
+          </div>
+        </div>
+
+        <!-- Memory Card 2 -->
+        <div class="gallery-card customizable-img-wrapper" data-image-slot="images/memory2.jpg" id="gallery-card-2">
+          <img src="images/memory21.JPG" alt="Uncle Azumah reading a book in his sunlit library" loading="lazy">
+          <div class="gallery-card-overlay">
+            <h4 class="gallery-card-title">Moments of Wisdom</h4>
+            <span class="gallery-card-date">Quiet Reflections</span>
+          </div>
+        </div>
+
+        <!-- Memory Card 3 -->
+        <div class="gallery-card customizable-img-wrapper" data-image-slot="images/memory3.jpg" id="gallery-card-3">
+          <img src="images/memory31.JPG" alt="A peaceful tropical beach sunset representing tranquility" loading="lazy">
+          <div class="gallery-card-overlay">
+            <h4 class="gallery-card-title">Quiet Sanctuaries</h4>
+            <span class="gallery-card-date">Sunset Landscapes</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Wishes Section -->
+    <section class="section-container" id="wishes" style="background-color: var(--color-bg-alt); max-width: 100%;">
+      <div style="max-width: 1200px; margin-inline: auto;">
+        <h2 class="section-title">Messages of Love</h2>
+        <p class="section-desc">Heartfelt words and Father's Day wishes from his children, family members, and close
+          friends.</p>
+
+        <div class="wishes-grid" id="wishes-cards-container">
+          <!-- Wish 1 -->
+          <article class="wish-card" id="wish-card-1">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">Dad, your wisdom is my guide and your strength is my shelter. Thank you for showing us
+              how to walk through life with grace and honor. Happy Father's Day!</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">K</div>
+              <div>
+                <h4 class="wish-sender">Kay Morgan</h4>
+                <p class="wish-relation">Son</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Wish 2 -->
+          <article class="wish-card" id="wish-card-2">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">To the man who taught me that kindness is the greatest strength. Thank you for the
+              endless laughs, late-night chats, and unconditional support. You are my hero, Daddy.</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">D</div>
+              <div>
+                <h4 class="wish-sender">Delphina Morgan</h4>
+                <p class="wish-relation">Daughter</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Wish 3 -->
+          <article class="wish-card" id="wish-card-2">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">I am grateful for the values you've taught me, the lessons you've shared, and the
+              example you've set. No matter how old I get, I will always appreciate having you as my father.</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">Z</div>
+              <div>
+                <h4 class="wish-sender">Zenator Morgan</h4>
+                <p class="wish-relation">Son</p>
+              </div>
+            </div>
+          </article>
+          <!-- Wish 4 -->
+          <article class="wish-card" id="wish-card-2">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">I just want to thank you for everything you've done for me throughout my life. Your
+              love, guidance, strength, and sacrifices have helped shape me into the person I am today. You've always
+              been there when I needed support, encouragement, or simply someone to listen.</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">Y</div>
+              <div>
+                <h4 class="wish-sender">Yayra Morgan</h4>
+                <p class="wish-relation">Son</p>
+              </div>
+            </div>
+          </article>
+          <!-- Wish 5-->
+          <article class="wish-card" id="wish-card-2">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">Wishing you a wonderful Father's Day filled with happiness, love, and all the
+              appreciation you deserve. I love you, Dad.</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">E</div>
+              <div>
+                <h4 class="wish-sender">Eyram Morgan</h4>
+                <p class="wish-relation">Daughter</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Wish 6-->
+          <article class="wish-card" id="wish-card-2">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">On this special day, I want to celebrate not only the wonderful father you are but also
+              the incredible person you've always been to our family. Your friendship with my father has been a
+              blessing, and your kindness, wisdom, and support have touched many lives, including mine.</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">JJ</div>
+              <div>
+                <h4 class="wish-sender">Joshua Jnr</h4>
+                <p class="wish-relation">Nephew</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Wish 7-->
+          <article class="wish-card" id="wish-card-3">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">Azumah is a true brother and a reliable pillar. His quiet strength and warm generosity
+              has made a difference to everyone in our community. Cheers to you on Father's Day!</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">J</div>
+              <div>
+                <h4 class="wish-sender">Joshua Amarquaye Snr</h4>
+                <p class="wish-relation">Lifelong Friend</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Wish 8-->
+          <article class="wish-card" id="wish-card-3">
+            <div class="wish-card-quote-icon">“</div>
+            <p class="wish-text">Thank you for your patience, strength, sacrifices, and the countless ways you make our
+              family feel safe and loved. Our children are blessed to have you as their father, and I am blessed to
+              share this journey of life and parenthood with you.</p>
+            <div class="wish-sender-info">
+              <div class="wish-avatar">Y</div>
+              <div>
+                <h4 class="wish-sender">Yvette Morgan</h4>
+                <p class="wish-relation">Wife</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-logo">Celebrating Mr.Richard Azumah Morgan</div>
+    <p class="footer-copyright">&copy; 2026 Crafted with Love. Happy Father's Day.</p>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Image Lightbox">
+    <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close lightbox">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+      </svg>
+    </button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Enlarged gallery view">
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Interactive Customizer Helper Mode -->
+  <!-- Floating settings gear button to toggle customizer -->
+  <button class="customizer-toggle" id="customizer-toggle-btn" title="Toggle Image Customizer Mode"
+    aria-label="Toggle Image Customizer Mode">
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
+    </svg>
+  </button>
+
+  <!-- Sliding Customizer Drawer -->
+  <section class="customizer-drawer" id="customizer-drawer" aria-label="Image Customization Panel">
+    <h3 class="customizer-drawer-title">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" />
+      </svg>
+      Image Customizer
+    </h3>
+    <p class="customizer-drawer-desc">
+      You are in <strong>Preview Mode</strong>. Drag-and-drop your own photo onto any highlighted slot or click the slot
+      to choose a file. See the layout update immediately!
+    </p>
+
+    <ul class="customizer-checklist" id="customizer-checklist">
+      <li class="customizer-checklist-item" data-slot="images/hero.jpg">
+        <span>Hero Banner</span>
+        <span class="customizer-filename">hero.jpg</span>
+        <span class="customizer-status" id="status-hero">Original</span>
+      </li>
+      <li class="customizer-checklist-item" data-slot="images/father.jpg">
+        <span>Father Portrait</span>
+        <span class="customizer-filename">father.jpg</span>
+        <span class="customizer-status" id="status-father">Original</span>
+      </li>
+      <li class="customizer-checklist-item" data-slot="images/memory1.jpg">
+        <span>Family Memory</span>
+        <span class="customizer-filename">memory1.jpg</span>
+        <span class="customizer-status" id="status-memory1">Original</span>
+      </li>
+      <li class="customizer-checklist-item" data-slot="images/memory2.jpg">
+        <span>Library Memory</span>
+        <span class="customizer-filename">memory2.jpg</span>
+        <span class="customizer-status" id="status-memory2">Original</span>
+      </li>
+      <li class="customizer-checklist-item" data-slot="images/memory3.jpg">
+        <span>Sunset Memory</span>
+        <span class="customizer-filename">memory3.jpg</span>
+        <span class="customizer-status" id="status-memory3">Original</span>
+      </li>
+    </ul>
+
+    <div class="customizer-help-note">
+      <strong>To Save Permanently:</strong><br>
+      Overwrite the files in the local <code>images/</code> folder using these exact filenames.
+    </div>
+  </section>
+
+  <!-- Hidden File Input tags for trigger -->
+  <input type="file" id="input-file-hero" class="customizer-file-input" accept="image/*" data-slot="images/hero.jpg">
+  <input type="file" id="input-file-father" class="customizer-file-input" accept="image/*"
+    data-slot="images/father.jpg">
+  <input type="file" id="input-file-memory1" class="customizer-file-input" accept="image/*"
+    data-slot="images/memory1.jpg">
+  <input type="file" id="input-file-memory2" class="customizer-file-input" accept="image/*"
+    data-slot="images/memory2.jpg">
+  <input type="file" id="input-file-memory3" class="customizer-file-input" accept="image/*"
+    data-slot="images/memory3.jpg">
+
+  <!-- Interactivity Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
